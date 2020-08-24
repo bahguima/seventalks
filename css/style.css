@@ -1,12 +1,26 @@
-/* GLOBAL STYLES
+/* FOLHA DE ESTILO SEVEN TALKS
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
+
+  /* NAV
+-------------------------------------------------- */
+
+#sevennav{
+
+
+font-family: Monument Extended;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #8B09FF;
+}
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -67,7 +81,7 @@ body {
   }
   
   
-  /* RESPONSIVE CSS
+  /* CSS RESPONSIVO
   -------------------------------------------------- */
   
   @media (min-width: 40em) {
