@@ -65,9 +65,8 @@
     
     
         <!-- TEXTO INFORMATIVO -->
-    
-       <br><br>
-    
+        <br><br>
+        <div container class="informativo">
         <div class="row featurette">
           <div class="col-md-12">
            
@@ -76,13 +75,12 @@
          
         </div>
 
-        <br><br>
-    
-       
-    
+      </div>
+
+        
         <div class="row featurette">
-          <div class="col-md-12 order-md-2">
-            <h2 class="featurette-heading">Faltam...</h2>
+          <div class="col-md-12">
+            <h2 class="featurette-heading" style="text-align: center;">Faltam...</h2>
 
             <div class="contagem">
                 <table><tr><td><div class="numero" id="dia"></div></td></td><td><div class="numero" id="hora"></div></td><td><div class="numero" id="minuto"></div></td><td><div class="numero" id="segundo"></div></td></tr>
@@ -94,12 +92,39 @@
           </div>
           
         </div>
+
+       
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
     
         <hr class="featurette-divider">
     
         <div class="row featurette">
           <div class="col-md-12">
-            <h2 class="featurette-heading">Quer receber um lembrete por email?</h2>
+            
+            <h2 class="featurette-heading" style="text-align: center;">Quer receber um lembrete por email?</h2>
+            <div class="formulario">
+              <form class="row fomulario" method="POST"
+                  action="https://smtl.gama.academy/leads/7f2b6f24-dcac-11ea-91f1-99fb0c9231dc">
+                  <div class="form-group col-12">
+              
+                      <input name="email" style="border-color: #494FC6;" type="email" class="form-control"
+                          id="inputEmail"
+                          placeholder="Insira seu melhor Email" required />
+                  </div>
+
+                  <div class="form-group col-md-12">
+                     
+                      <input name="redirectTo" type="hidden" value="#"/> <!--link do pdf mailchimp-->
+                     
+                      <input class="btn btn-lg btn-block" style="color: #fff; background: linear-gradient(90deg, #8B09FF 13.78%, #8B09FF 157.52%);
+                      border-radius: 15.6757px;"
+                      value="Enviar Lembrete" type="submit" />
+                  </div>
+              </form>
+          </div>
           </div>
         </div>
     
