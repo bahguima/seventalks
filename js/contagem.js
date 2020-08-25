@@ -1,5 +1,5 @@
 
-var target_date = new Date("2020-08-26T20:00:00-03:00");//Padrão ISO para data e hora: ano-mes-dia_T_hora:mim:seg-fuzo(br: 03:00)
+var target_date = new Date("2020-08-26T19:00:00-03:00");//Padrão ISO para data e hora: ano-mes-dia_T_hora:mim:seg-fuzo(br: 03:00)
 
 var dias, horas, minutos, segundos;
 var regressiva = document.getElementById("regressiva");
