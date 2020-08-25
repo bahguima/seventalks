@@ -131,6 +131,7 @@ background: #BBDAFF;
   top: 950px;
   margin: auto;
   background: #E2D0F2;
+  display: none;
     }
     .img_rec_a{
       position: absolute;
@@ -140,6 +141,7 @@ background: #BBDAFF;
   top: 1650px;
   
   background: #BBDAFF;
+  display: none;
     }
   }
   
