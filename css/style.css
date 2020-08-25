@@ -92,18 +92,17 @@ color: #898989;
   .img_rec_r{
     position: absolute;
 width: 100%;
-height: 235px;
+height: 300px;
 left: 0px;
-top: 950px;
-margin: auto;
+margin-top: 25px;
 background: #E2D0F2;
   }
   .img_rec_a{
     position: absolute;
 width: 100%;
-height: 235px;
+height: 300px;
 left: 0px;
-top: 1345px;
+margin-top: 25px;
 
 background: #BBDAFF;
   }
@@ -125,21 +124,20 @@ background: #BBDAFF;
     /* imagem responsiva fundo dos palestrantes*/
     .img_rec_r{
       position: absolute;
-  width: 100%;
-  height: 550px;
-  left: 0px;
-  top: 950px;
-  margin: auto;
-  background: #E2D0F2;
-  display: none;
+      width: 100%;
+      height: 60%;
+      left: 0;
+      margin-top: 20px;
+      background: #E2D0F2;
+      display: none;
+
     }
     .img_rec_a{
       position: absolute;
-  width: 100%;
-  height: 500px;
-  left: 0px;
-  top: 1650px;
-  
+      width: 100%;
+      height: 60%;
+      left: 0;
+      margin-top: 275px;
   background: #BBDAFF;
   display: none;
     }
