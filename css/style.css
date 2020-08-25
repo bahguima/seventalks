@@ -58,11 +58,54 @@ margin: auto;
     letter-spacing: -.05rem;
     color: #2B04E8;
   }
+  .featurette-heading1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FF4409;
+    
+  }
+  .textobtn{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #898989;
+  }
   .img-fluid-desk{
     display: block;
   }
   .img-fluid-mobile{
     display: none;
+  }
+  .img_rec_r{
+    position: absolute;
+width: 100%;
+height: 235px;
+left: 0px;
+top: 950px;
+margin: auto;
+background: #E2D0F2;
+  }
+  .img_rec_a{
+    position: absolute;
+width: 100%;
+height: 235px;
+left: 0px;
+top: 1345px;
+
+background: #BBDAFF;
   }
   
   /* CSS RESPONSIVO
@@ -75,6 +118,28 @@ margin: auto;
     }
     .img-fluid-mobile{
       display: block;
+    }
+  }
+
+  @media (max-width: 900px) {
+    /* imagem responsiva fundo dos palestrantes*/
+    .img_rec_r{
+      position: absolute;
+  width: 100%;
+  height: 550px;
+  left: 0px;
+  top: 950px;
+  margin: auto;
+  background: #E2D0F2;
+    }
+    .img_rec_a{
+      position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 1650px;
+  
+  background: #BBDAFF;
     }
   }
   
@@ -90,6 +155,34 @@ margin: auto;
     background-color: #ffffff;
     margin: auto;
     }
+    
+  .dia1{
+
+    margin: auto;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #8B09FF;
+    }
+    .dia2{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 33px;
+      /* identical to box height */
+      
+      text-align: center;
+      
+      color: #4A40FF;
+      margin: auto;
+      }
     
     .numero
     {
