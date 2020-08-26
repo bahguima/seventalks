@@ -316,3 +316,13 @@ color: #000000;
   font-size: 26px;
   margin-bottom: 15px;
 }
+
+.redes_sociais{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 45px;
+text-align: center;
+
+}
