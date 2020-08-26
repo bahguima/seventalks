@@ -26,8 +26,3 @@ document.getElementById('segundo').innerHTML = segundos;
 
 }, 1000);
 
-
-
-
-
-
