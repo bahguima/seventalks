@@ -10,10 +10,10 @@ Link: https://seventalks.com.br
 <img src="img/s7desktop.png">
 </p>
 <p align="center">
-<img src="img/d2png">
+<img src="img/d2.PNG">
 </p>
 <p align="center">
-<img src="img/d3.png">
+<img src="img/d3.PNG">
 </p>
   
 <h1>Versão da página <i>Seventalks</i> para mobile<h1>
