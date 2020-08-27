@@ -125,21 +125,21 @@ background: #BBDAFF;
     .img_rec_r{
       position: absolute;
       width: 100%;
-      height: 60%;
+      height: 80%;
       left: 0;
       margin-top: 20px;
       background: #E2D0F2;
-      display: none;
+     
 
     }
     .img_rec_a{
       position: absolute;
       width: 100%;
-      height: 60%;
+      height: 99%;
       left: 0;
-      margin-top: 275px;
+      margin-top: 20px;
   background: #BBDAFF;
-  display: none;
+ 
     }
   }
   
